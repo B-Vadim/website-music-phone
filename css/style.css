@@ -1027,7 +1027,6 @@ input, button, textarea {outline: none;}
 .social-icon {
   border-radius: 50%;
   padding: 10px 10px; 
-  margin: 0 5px;
   width: 10px;
   height: 10px;
   text-decoration: none;
@@ -1035,25 +1034,29 @@ input, button, textarea {outline: none;}
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
 }
 
 .our-team__slider-box-socialicon {
   border: solid 1px #313c47;
   color: black;
+  margin: 0 5px;
 }
 
-.icon-facebook, .icon-twitter, .icon-linkedin  {
+.our-team__icon-facebook, .our-team__icon-twitter, .our-team__icon-linkedin  {
   font-size: 16px;  
 }
 
-.icon-facebook[data-icon="our-team"]:hover, 
-.icon-twitter[data-icon="our-team"]:hover,
-.icon-linkedin[data-icon="our-team"]:hover, 
+
+.our-team__icon-facebook:hover,
+.our-team__icon-twitter:hover,
+.our-team__icon-linkedin:hover,
 .our-team__slider-box-socialicon:hover {  
   color:white;
   background-color: #313c47;
   transform: scale(1.3);
   transition-duration: .3s;
+  border: none;
 }
 
 
@@ -1276,16 +1279,19 @@ input, button, textarea {outline: none;}
 .contact-us__socialicon {
   border: solid 1px white;
   color: white;
+  margin: 0 5px;
 }
 
-.icon-facebook[data-icon="footer"]:hover, 
-.icon-twitter[data-icon="footer"]:hover,
-.icon-linkedin[data-icon="footer"]:hover, 
+
+.contact-us__icon-facebook:hover,
+.contact-us__icon-twitter:hover,
+.contact-us__icon-linkedin:hover,
 .contact-us__socialicon:hover {  
   color: #1c4e8c;
   background-color: #ffffff;
   transform: scale(1.3);
   transition-duration: .3s;
+  border: none;
 }
 
 .contact-us__block-form {
