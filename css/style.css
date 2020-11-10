@@ -1767,7 +1767,7 @@ input, button, textarea {outline: none;}
 @media (max-width: 700px) {
 
   .header-section-left__title {
-    padding-top: 160px;
+    padding-top: 180px;
   }
   .header-section-rigth {
     top: 250px;
