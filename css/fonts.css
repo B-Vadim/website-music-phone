@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Lato';
 	src: url('./fonts/Lato-Regular.woff');
-	/* src: local('☺'), url('./fonts/Lato-Regular.woff') format('woff'); */
+	src: local('☺'), url('./fonts/Lato-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -103,7 +103,6 @@
 .icon-facebook:before {
   content: "\f09a";
 }
-
 .icon-globe:before {
   content: "\f0ac";
 }
