@@ -1185,7 +1185,7 @@ input, button, textarea {outline: none;}
 }
 
 .pricing__card-column-btn {
-  width: 90px;
+  min-width: 90px;
   padding: 10px 25px;
   background-color: #26679e;
   color: white; 
