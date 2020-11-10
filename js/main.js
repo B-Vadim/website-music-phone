@@ -112,8 +112,8 @@ const setVideoSrc = (index=0) => {
 //scroll-page
 
 
-const animItems = document.querySelectorAll('.anim-items');
-const servicesNumber = document.querySelector('.services__number.anim-items');
+let animItems = document.querySelectorAll('.anim-items');
+let servicesNumber = document.querySelector('.services__number.anim-items');
 
 if (animItems.length > 0) {
   
@@ -121,10 +121,10 @@ if (animItems.length > 0) {
 
     for (let i = 0; i < animItems.length; i++) {
 
-      const animItem = animItems[i];
-      const animItemHeight = animItem.offsetHeight;
-      const animItemOffset = offset(animItem).top;
-      const animStart = 4;
+      let animItem = animItems[i];
+      let animItemHeight = animItem.offsetHeight;
+      let animItemOffset = offset(animItem).top;
+      let animStart = 4;
       let animItemPoint = window.innerHeight - animItemHeight / animStart;
 
       if (animItemHeight > window.innerHeight) {
@@ -138,7 +138,6 @@ if (animItems.length > 0) {
           servicesNumber.classList.remove('anim-items');
         }
       } 
-     
     }
   }
 
