@@ -1765,6 +1765,13 @@ input, button, textarea {outline: none;}
 
 
 @media (max-width: 700px) {
+
+  .header-section-left__title {
+    padding-top: 160px;
+  }
+  .header-section-rigth {
+    top: 250px;
+  }
   
   .features-music__block {
     padding: 30px 0;
@@ -1798,6 +1805,16 @@ input, button, textarea {outline: none;}
 }
 
 
+@media (max-width: 450px) {
+
+  .header-section-left__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+}
+
+
 @media (max-width: 400px) {
   .services__number-item {
     font-size: 25px;
@@ -1805,16 +1822,6 @@ input, button, textarea {outline: none;}
   .services__number-text {
     font-size: 10px;
   }
-}
-
-
-@media (max-width: 450px) {
-
-  .header-section-left__title {
-    font-size: 35px;
-    line-height: 50px;
-  }
-
 }
 
 
@@ -1830,7 +1837,6 @@ input, button, textarea {outline: none;}
   .header-section-left__title {
     padding-top: 100px;
   }
-
   .header-section-rigth {
     top: 50px;
   }
